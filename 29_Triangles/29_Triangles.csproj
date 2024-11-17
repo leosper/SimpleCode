@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{F106E783-8232-4D10-8E36-15AD534A332C}</ProjectGuid>
+    <ProjectGuid>{EB17B253-F5C0-410B-8291-4D6EC6EA8443}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>SimpleCode</RootNamespace>
-    <AssemblyName>SimpleCode</AssemblyName>
+    <RootNamespace>_29_Triangles</RootNamespace>
+    <AssemblyName>29_Triangles</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -33,7 +33,6 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="PresentationFramework" />
     <Reference Include="System" />
     <Reference Include="System.Core" />
     <Reference Include="System.Xml.Linq" />
