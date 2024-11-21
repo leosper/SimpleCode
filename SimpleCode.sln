@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SimpleCode", "SimpleCode.cs
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "29_Triangles", "29_Triangles\29_Triangles.csproj", "{EB17B253-F5C0-410B-8291-4D6EC6EA8443}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "38_ArraysInCS", "38_ArraysInCS\38_ArraysInCS.csproj", "{F8AE2674-054A-4FF7-9EB3-69E79BB105BB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{EB17B253-F5C0-410B-8291-4D6EC6EA8443}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EB17B253-F5C0-410B-8291-4D6EC6EA8443}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EB17B253-F5C0-410B-8291-4D6EC6EA8443}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F8AE2674-054A-4FF7-9EB3-69E79BB105BB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8AE2674-054A-4FF7-9EB3-69E79BB105BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8AE2674-054A-4FF7-9EB3-69E79BB105BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8AE2674-054A-4FF7-9EB3-69E79BB105BB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
