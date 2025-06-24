@@ -11,12 +11,16 @@
         {
             int result = -1;
 
-            for (int i = 0; i < Arr.Length; i++){
-                if (value == Arr[i]) {
-                    result = i;
-                    break;
-                }
-            }
+            result = Array.FindIndex(Arr, a => a == value);
+
+            //for (int i = 0; i < Arr.Length; i++)
+            //{
+            //    if (value == Arr[i])
+            //    {
+            //        result = i;
+            //        break;
+            //    }
+            //}
             return result;
         }
 
@@ -31,7 +35,7 @@
 
             int[] myArray = { 111, 10, 4, 99, 49, 64, 77, 4, 42, 5 };
 
-            int index = Ndx(myArray, 22);
+            int index = Ndx(myArray, 4);
             Console.WriteLine(index);
 
         }
